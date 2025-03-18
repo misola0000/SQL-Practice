@@ -9,3 +9,11 @@ This repository contains my hands-on SQL practice.
 
 ---
 ✅ **Author:** [Your GitHub Username]  
+## 📝 SQL Module 18 – Task 2: Hands-on Practice  
+
+### 🔍 Business Question:  
+**Show all OrderDetails records where Quantity is over 20, sorted by ProductID.**  
+
+### 📌 SQL Query Used:
+```sql
+SELECT * FROM OrderDetails WHERE Quantity > 20 ORDER BY ProductID;
